@@ -3,7 +3,7 @@
 
 void main(void)
 {
-    setlocale(LC_ALL, "Ru");
+    setlocale(LC_ALL, "Russian_Russia.1251");
     int i, k, number;
     int power(int, int);
     std::cout << "¬ведите число дл€ возведени€ его в степень: ";

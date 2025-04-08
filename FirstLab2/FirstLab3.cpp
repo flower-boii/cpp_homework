@@ -20,7 +20,7 @@ void obmen3(int& a, int& b) // обмен через ссылки
 }
 void main(void)
 {
-    setlocale(LC_ALL, "Ru");
+    setlocale(LC_ALL, "Russian_Russia.1251");
     int a = 2, b = 5;
     std::cout << "До обмена: a= " << a << ", b = " << b;
     obmen1(a, b);

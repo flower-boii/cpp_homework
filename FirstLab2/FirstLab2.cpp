@@ -4,6 +4,7 @@
 
 void main(void)
 {
+    setlocale(LC_ALL, "Russian_Russia.1251");
     int mas[] = { 100,200,300 };
     int *ptr1, *ptr2;
     ptr1 = mas; //ссылка на первый элемент массива
